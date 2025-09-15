@@ -1,0 +1,147 @@
+
+
+ .video-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+.video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    
+nav {
+      display: flex;
+      align-items: center;
+      padding:30px 30px;
+    }
+    
+nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+        
+    }
+nav a:hover{
+    color:rgb(90, 5, 5);
+    text-decoration:underline;
+  
+}
+    .logo {
+      width: 90px;
+      margin:10px;
+      padding-left: 10px;
+    }
+
+.food-pic{
+  background-color: black;
+  color:white;
+  display:flex;
+margin-bottom:0;
+ padding:40px 40px;
+   
+}
+
+.food-img{
+  height:480px;
+  width:480px;
+  padding:2px;
+margin-left:10px;
+}
+.ff{
+   
+    background-color: #bd0505;
+    color: white;
+    text-decoration: none;
+   padding:10px 20px;
+   border-radius: 10px;
+   
+}
+.ff:hover{
+  background-color: rgb(188, 41, 65);
+  opacity:0.5;
+}
+.contact{
+  color:white;
+  background-color: black;
+  padding:50px 50px; 
+
+
+display:flex;
+}
+.container {
+  position: relative;
+
+  color: white;
+
+}
+
+::placeholder{
+  color:white;
+}
+
+.bo {
+position: absolute;
+top:50px;
+bottom:50px;
+padding:20px 20px;
+
+}
+
+.food1-img{
+width:100%;
+height:600px;
+}
+
+button{
+border-radius: 20px;
+width:200px;
+padding:20px 20px;
+background-color:black;
+color:white;
+border-color:red;
+
+}
+input{
+  color:white;
+  border-color:red;
+  background-color: black;
+  border-radius: 20px;
+  width:200px;
+  height:35px;
+}
+
+strong{
+  color:red;
+}
+
+.contact1{
+  color:white;
+  background-color: black;
+  padding:50px 50px; 
+border:1px solid red;
+
+display:flex;
+}
+
+.demo2{
+
+  position: relative;
+}
+.demo3{
+
+position: absolute;
+top:10px;
+bottom:10px;
+padding-left:10px;
+color:white;
+}
+
